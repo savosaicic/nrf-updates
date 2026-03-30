@@ -8,8 +8,8 @@
 
 LOG_MODULE_REGISTER(fota_http);
 
-#define FOTA_HOST "<host:port>"
-#define FOTA_FILE "<signed-bin-file-path>"
+#define FOTA_HOST "42group.fr:4242"
+#define FOTA_FILE "zephyr.signed.bin"
 
 #define SLEEP_TIME_MS 500
 
