@@ -11,7 +11,13 @@
 
 LOG_MODULE_REGISTER(fota_lwm2m);
 
+<<<<<<< Updated upstream
 #define ENDPOINT_NAME "test_ovas"
+=======
+#define SERVER_URL    "coap://42group.fr:5683"
+#define ENDPOINT_NAME "test_ovas"
+#define SERVER_ID     1
+>>>>>>> Stashed changes
 #define LIFETIME_S    (60 * 5)
 
 static K_SEM_DEFINE(lte_connected, 0, 1);
